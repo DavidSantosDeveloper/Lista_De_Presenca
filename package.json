@@ -1,15 +1,12 @@
 {
-  "homepage":"https://DavidSantosDeveloper.github.io/PORTIFOLIO",
-  "name": "reactapp",
+  "name": "lista_de_presenca",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -19,7 +16,6 @@
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.10",
     "@vitejs/plugin-react": "^3.1.0",
-    "gh-pages": "^5.0.0",
     "vite": "^4.1.0"
   }
 }
